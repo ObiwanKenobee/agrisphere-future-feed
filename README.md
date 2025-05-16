@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+Agrisphere:
+# 🌿 Welcome to AgriSphere — Where Innovation Meets the Soil 🌍
 
-## Project info
+Hi there! We’re building **AgriSphere**, a smart irrigation and climate-resilient platform inspired by Kenya’s **Galana Kulalu Irrigation Project** — and designed for **global food security**.
 
-**URL**: https://lovable.dev/projects/0545dc6f-ef26-4f4a-84f5-ab82523726a9
+---
 
-## How can I edit this code?
+## 🚀 What We’re Building
 
-There are several ways of editing your application.
+> A sustainable, scalable, and lovable platform for next-gen agriculture.
 
-**Use Lovable**
+**🔐 Built With:**
+- 🧠 Supabase — Auth, Realtime DB, Role-Based Dashboards
+- ⚛️ Vite + React + TypeScript — Ultra-fast frontend
+- 🎨 Styled Components — Lovable, accessible UI
+- 🌤️ Climate-Aware Tools — Smart irrigation, crop yield forecasts
+- 🌍 Role-based Access — Farmers, planners, researchers, admins
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0545dc6f-ef26-4f4a-84f5-ab82523726a9) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Key Features
 
-**Use your preferred IDE**
+- ✅ Email/Password & OAuth Auth (Supabase)
+- ✅ Realtime user dashboards (per role)
+- ✅ Digital soil & irrigation dashboard
+- ✅ Solar & IoT pump control logic (future goal)
+- ✅ Smart alerts (drought, yield, water balance)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💡 Why This Matters
 
-Follow these steps:
+The world faces a growing food crisis — and climate change is shrinking the margin of error for farmers.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+> AgriSphere is built to **make climate-resilient farming delightful and data-driven** — from Kenya to Kansas.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📦 Tech Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+| Layer       | Toolset                          |
+|-------------|----------------------------------|
+| Backend     | Supabase (Postgres + Edge)       |
+| Frontend    | Vite, React, TypeScript          |
+| UI/UX       | Styled Components, Figma (Lovable)|
+| Hosting     | Vercel / Netlify                 |
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📍 Next Goals
 
-**Use GitHub Codespaces**
+- 🛰️ Remote sensing integration (NDVI, soil moisture APIs)
+- 📈 AI crop prediction + ML irrigation modeling
+- 🌐 Farmer community features + mobile PWA
+- ⚡ Offline-first functionality (Supabase Edge Cache)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 👩‍🌾 Join the Mission
 
-This project is built with:
+We believe in **open innovation for global food security**.  
+Pull requests, issue reports, and stars ⭐ are always welcome!
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Let’s grow more, with less.  
+🌱 *– AgriSphere Team*
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/0545dc6f-ef26-4f4a-84f5-ab82523726a9) and click on Share -> Publish.
+### 🔗 Live Preview (Coming soon…)
 
-## Can I connect a custom domain to my Lovable project?
+> [https://agrisphere.io](https://agrisphere.io)  
+> *UI-first branch: `dev-ui` | Auth-integration: `feature/auth`*
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📬 Contact & Collaboration
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+DM us on Twitter: [@agrisphere_dev](https://twitter.com/agrisphere_dev)  
+Or email: hello@agrisphere.io
+
+---
+
+### ✨ Powered by:
+
+- Kenya's agricultural innovation
+- Supabase open infrastructure
+- React’s blazing fast UI
+- Global communities fighting food insecurity
+
