@@ -1,13 +1,14 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
+import AuthButton from './AuthButton';
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 10) {
         setIsScrolled(true);
@@ -52,9 +53,7 @@ const Navbar: React.FC = () => {
                 {link.name}
               </a>
             ))}
-            <Button className="bg-agri-primary hover:bg-agri-dark text-white">
-              Get Started
-            </Button>
+            <AuthButton />
           </div>
           
           {/* Mobile Menu */}
@@ -76,9 +75,7 @@ const Navbar: React.FC = () => {
                       {link.name}
                     </a>
                   ))}
-                  <Button className="bg-agri-primary hover:bg-agri-dark text-white w-full mt-4">
-                    Get Started
-                  </Button>
+                  <AuthButton />
                 </div>
               </SheetContent>
             </Sheet>
