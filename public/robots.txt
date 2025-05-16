@@ -1,14 +1,34 @@
+
+# AgriSphere Robots.txt
+# Allow all web crawlers to access most content
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Disallow: /auth/
+Disallow: /dashboard/admin/
+Disallow: /api/
+
+# Special rules for Google
 User-agent: Googlebot
 Allow: /
+Disallow: /auth/
+Disallow: /dashboard/admin/
 
+# Allow Google Images to index all images
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
 User-agent: Bingbot
 Allow: /
 
+# Social Media Bots - Allow full access to display rich content
 User-agent: Twitterbot
 Allow: /
 
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
-Allow: /
+# Sitemap location
+Sitemap: https://agrisphere.io/sitemap.xml
